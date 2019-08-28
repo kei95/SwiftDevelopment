@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MusicDataBase</string>
+
+    <string-array name="genres">
+        <item>Hip-Hop</item>
+        <item>R and B</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>EDM</item>
+        <item>Classical</item>
+    </string-array>
+</resources>
