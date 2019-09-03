@@ -10,6 +10,11 @@ import UIKit
 
 class EmojiTableViewController: UITableViewController {
     
+    struct SegueIdentifier {
+        static let addEmoji = "AddEmoji"
+        static let editEmoji = "EditEmoji"
+    }
+    
     private let cellID = "EmojiCell"
     
     var emojis: [Emoji] = {[
@@ -21,6 +26,34 @@ class EmojiTableViewController: UITableViewController {
         Emoji(symbol: "💤", name: "Snore", description: "Three blue \'z\'s", usage: "tired sleepiness"),
         ]
     }()
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "EditEmoji"{
+            let indexPath = tableView.indexPathForSelectedRow!
+            let emoji = emojis[indexPath.row]
+            let navController = segue.destination as! UINavigationController
+            let addEditEmojiTVC = navController.topViewController as! AddEditEmojiTableViewController
+            
+            addEditEmojiTVC.emoji = emoji
+        }
+    }
+    
+    @IBAction func unwindToEmojiTableView(segue: UIStoryboardSegue) {
+        if segue.identifier == "SaveEmoji" {
+            let sourceVC = segue.source as! AddEditEmojiTableViewController
+    
+            if let emoji = sourceVC.emoji {
+                if let selectedPath = tableView.indexPathForSelectedRow{
+                    emojis[selectedPath.row] = emoji
+                    tableView.reloadRows(at: [selectedPath], with: .none)
+                } else {
+                    let newIndexPath = IndexPath(row: emojis.count, section: 0)
+                    emojis.append(emoji)
+                    tableView.insertRows(at: [newIndexPath], with: .automatic)
+                }
+            }
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,11 +85,10 @@ class EmojiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //1. dequeue resusable cell
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! EmojiTableViewCell
         //2.configure the cell
         let emoji = emojis[indexPath.row]
-        cell.textLabel?.text = "\(emoji.symbol) - \(emoji.name)"
-        cell.detailTextLabel?.text = emoji.description
+        cell.update(with: emoji)
         cell.showsReorderControl = true
         //3. return the cell
         return cell
@@ -69,26 +101,24 @@ class EmojiTableViewController: UITableViewController {
         
     }
     
-    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
-        if indexPath.row == 0 {
-            return .insert
-        }
-        if indexPath.row % 2 == 0{
-            return .none
-        } else {
-             return .delete
-        }
-       
-    }
-    
-    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
-        print("accessory button - \(emojis[indexPath.row].symbol)")
-    }
-    
     // MARK: - Table view delegate methods
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(emojis[indexPath.row].symbol)
     }
+    
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .delete
+    }
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            emojis.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+            
+        }
+    }
+    
+
     
 
 }

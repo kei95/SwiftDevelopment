@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04FA4886231835CB0098743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA4885231835CB0098743F /* AppDelegate.swift */; };
-		04FA488B231835CB0098743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA4889231835CB0098743F /* Main.storyboard */; };
-		04FA488D231835CD0098743F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA488C231835CD0098743F /* Assets.xcassets */; };
-		04FA4890231835CD0098743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA488E231835CD0098743F /* LaunchScreen.storyboard */; };
-		04FA48982318374F0098743F /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA48972318374F0098743F /* Emoji.swift */; };
-		04FA489A231839820098743F /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA4899231839820098743F /* EmojiTableViewController.swift */; };
-		04FA48C6231990F20098743F /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA48C5231990F20098743F /* EmojiTableViewCell.swift */; };
-		04FA48C823199F420098743F /* AddEditEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA48C723199F420098743F /* AddEditEmojiTableViewController.swift */; };
+		0401D74D231B8BF100DBAF75 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401D74C231B8BF100DBAF75 /* QuestionData.swift */; };
+		04FA484A2316F31A0098743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA48492316F31A0098743F /* AppDelegate.swift */; };
+		04FA484C2316F31A0098743F /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA484B2316F31A0098743F /* IntroductionViewController.swift */; };
+		04FA484F2316F31A0098743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA484D2316F31A0098743F /* Main.storyboard */; };
+		04FA48512316F31C0098743F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA48502316F31C0098743F /* Assets.xcassets */; };
+		04FA48542316F31C0098743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA48522316F31C0098743F /* LaunchScreen.storyboard */; };
+		04FA48C22318B6910098743F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA48C12318B6910098743F /* QuestionViewController.swift */; };
+		04FA48C42318B6C00098743F /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA48C32318B6C00098743F /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04FA4882231835CB0098743F /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04FA4885231835CB0098743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04FA488A231835CB0098743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04FA488C231835CD0098743F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04FA488F231835CD0098743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04FA4891231835CD0098743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04FA48972318374F0098743F /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
-		04FA4899231839820098743F /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
-		04FA48C5231990F20098743F /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
-		04FA48C723199F420098743F /* AddEditEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditEmojiTableViewController.swift; sourceTree = "<group>"; };
+		0401D74C231B8BF100DBAF75 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		04FA48462316F31A0098743F /* PersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FA48492316F31A0098743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FA484B2316F31A0098743F /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		04FA484E2316F31A0098743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FA48502316F31C0098743F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FA48532316F31C0098743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FA48552316F31C0098743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FA48C12318B6910098743F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		04FA48C32318B6C00098743F /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04FA487F231835CB0098743F /* Frameworks */ = {
+		04FA48432316F31A0098743F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04FA4879231835CB0098743F = {
+		04FA483D2316F31A0098743F = {
 			isa = PBXGroup;
 			children = (
-				04FA4884231835CB0098743F /* EmojiDictionary */,
-				04FA4883231835CB0098743F /* Products */,
+				04FA48482316F31A0098743F /* PersonalityQuiz */,
+				04FA48472316F31A0098743F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		04FA4883231835CB0098743F /* Products */ = {
+		04FA48472316F31A0098743F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04FA4882231835CB0098743F /* EmojiDictionary.app */,
+				04FA48462316F31A0098743F /* PersonalityQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04FA4884231835CB0098743F /* EmojiDictionary */ = {
+		04FA48482316F31A0098743F /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				04FA4885231835CB0098743F /* AppDelegate.swift */,
-				04FA4889231835CB0098743F /* Main.storyboard */,
-				04FA488C231835CD0098743F /* Assets.xcassets */,
-				04FA488E231835CD0098743F /* LaunchScreen.storyboard */,
-				04FA4891231835CD0098743F /* Info.plist */,
-				04FA48972318374F0098743F /* Emoji.swift */,
-				04FA4899231839820098743F /* EmojiTableViewController.swift */,
-				04FA48C5231990F20098743F /* EmojiTableViewCell.swift */,
-				04FA48C723199F420098743F /* AddEditEmojiTableViewController.swift */,
+				04FA48492316F31A0098743F /* AppDelegate.swift */,
+				04FA484B2316F31A0098743F /* IntroductionViewController.swift */,
+				04FA484D2316F31A0098743F /* Main.storyboard */,
+				04FA48502316F31C0098743F /* Assets.xcassets */,
+				04FA48522316F31C0098743F /* LaunchScreen.storyboard */,
+				04FA48552316F31C0098743F /* Info.plist */,
+				04FA48C12318B6910098743F /* QuestionViewController.swift */,
+				04FA48C32318B6C00098743F /* ResultsViewController.swift */,
+				0401D74C231B8BF100DBAF75 /* QuestionData.swift */,
 			);
-			path = EmojiDictionary;
+			path = PersonalityQuiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04FA4881231835CB0098743F /* EmojiDictionary */ = {
+		04FA48452316F31A0098743F /* PersonalityQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04FA4894231835CD0098743F /* Build configuration list for PBXNativeTarget "EmojiDictionary" */;
+			buildConfigurationList = 04FA48582316F31C0098743F /* Build configuration list for PBXNativeTarget "PersonalityQuiz" */;
 			buildPhases = (
-				04FA487E231835CB0098743F /* Sources */,
-				04FA487F231835CB0098743F /* Frameworks */,
-				04FA4880231835CB0098743F /* Resources */,
+				04FA48422316F31A0098743F /* Sources */,
+				04FA48432316F31A0098743F /* Frameworks */,
+				04FA48442316F31A0098743F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EmojiDictionary;
-			productName = EmojiDictionary;
-			productReference = 04FA4882231835CB0098743F /* EmojiDictionary.app */;
+			name = PersonalityQuiz;
+			productName = PersonalityQuiz;
+			productReference = 04FA48462316F31A0098743F /* PersonalityQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		04FA487A231835CB0098743F /* Project object */ = {
+		04FA483E2316F31A0098743F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Yamashtia Keisuke";
 				TargetAttributes = {
-					04FA4881231835CB0098743F = {
+					04FA48452316F31A0098743F = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 04FA487D231835CB0098743F /* Build configuration list for PBXProject "EmojiDictionary" */;
+			buildConfigurationList = 04FA48412316F31A0098743F /* Build configuration list for PBXProject "PersonalityQuiz" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +116,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 04FA4879231835CB0098743F;
-			productRefGroup = 04FA4883231835CB0098743F /* Products */;
+			mainGroup = 04FA483D2316F31A0098743F;
+			productRefGroup = 04FA48472316F31A0098743F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04FA4881231835CB0098743F /* EmojiDictionary */,
+				04FA48452316F31A0098743F /* PersonalityQuiz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04FA4880231835CB0098743F /* Resources */ = {
+		04FA48442316F31A0098743F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA4890231835CD0098743F /* LaunchScreen.storyboard in Resources */,
-				04FA488D231835CD0098743F /* Assets.xcassets in Resources */,
-				04FA488B231835CB0098743F /* Main.storyboard in Resources */,
+				04FA48542316F31C0098743F /* LaunchScreen.storyboard in Resources */,
+				04FA48512316F31C0098743F /* Assets.xcassets in Resources */,
+				04FA484F2316F31A0098743F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04FA487E231835CB0098743F /* Sources */ = {
+		04FA48422316F31A0098743F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA48C823199F420098743F /* AddEditEmojiTableViewController.swift in Sources */,
-				04FA48982318374F0098743F /* Emoji.swift in Sources */,
-				04FA489A231839820098743F /* EmojiTableViewController.swift in Sources */,
-				04FA48C6231990F20098743F /* EmojiTableViewCell.swift in Sources */,
-				04FA4886231835CB0098743F /* AppDelegate.swift in Sources */,
+				04FA484C2316F31A0098743F /* IntroductionViewController.swift in Sources */,
+				04FA484A2316F31A0098743F /* AppDelegate.swift in Sources */,
+				0401D74D231B8BF100DBAF75 /* QuestionData.swift in Sources */,
+				04FA48C22318B6910098743F /* QuestionViewController.swift in Sources */,
+				04FA48C42318B6C00098743F /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04FA4889231835CB0098743F /* Main.storyboard */ = {
+		04FA484D2316F31A0098743F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04FA488A231835CB0098743F /* Base */,
+				04FA484E2316F31A0098743F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		04FA488E231835CD0098743F /* LaunchScreen.storyboard */ = {
+		04FA48522316F31C0098743F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04FA488F231835CD0098743F /* Base */,
+				04FA48532316F31C0098743F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		04FA4892231835CD0098743F /* Debug */ = {
+		04FA48562316F31C0098743F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		04FA4893231835CD0098743F /* Release */ = {
+		04FA48572316F31C0098743F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,36 +290,36 @@
 			};
 			name = Release;
 		};
-		04FA4895231835CD0098743F /* Debug */ = {
+		04FA48592316F31C0098743F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FM3SAVJ89A;
-				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kei95.EmojiDictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kei95.PersonalityQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		04FA4896231835CD0098743F /* Release */ = {
+		04FA485A2316F31C0098743F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FM3SAVJ89A;
-				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kei95.EmojiDictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kei95.PersonalityQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04FA487D231835CB0098743F /* Build configuration list for PBXProject "EmojiDictionary" */ = {
+		04FA48412316F31A0098743F /* Build configuration list for PBXProject "PersonalityQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04FA4892231835CD0098743F /* Debug */,
-				04FA4893231835CD0098743F /* Release */,
+				04FA48562316F31C0098743F /* Debug */,
+				04FA48572316F31C0098743F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04FA4894231835CD0098743F /* Build configuration list for PBXNativeTarget "EmojiDictionary" */ = {
+		04FA48582316F31C0098743F /* Build configuration list for PBXNativeTarget "PersonalityQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04FA4895231835CD0098743F /* Debug */,
-				04FA4896231835CD0098743F /* Release */,
+				04FA48592316F31C0098743F /* Debug */,
+				04FA485A2316F31C0098743F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 04FA487A231835CB0098743F /* Project object */;
+	rootObject = 04FA483E2316F31A0098743F /* Project object */;
 }
