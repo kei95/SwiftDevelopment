@@ -1,4 +1,4 @@
-import UIKit
+ import UIKit
 
 import Foundation
 // Data  Model has to comfirm to 'Codable'
@@ -43,7 +43,6 @@ if let encodedNote = try?
     if let decodeNote = try? propertyListDecoder.decode([Note].self, from: retrievedNoteData!){
         print(decodeNote)
     }
-    
 }
 
 //: iOS Sandbox model
